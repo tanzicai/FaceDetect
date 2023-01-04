@@ -63,7 +63,7 @@ def save_align_pic(align_face_array_list):
 
 
 if __name__=='__main__':
-    import  face_detect
+    import  mtcnn_face_detect
     pic_dir='D:/Program File/Jupyter-NoteBook/Graduation Project/GraProject-release-0.3/imgData/'
     pic = ['img_2019-04-25_02-01-40.jpg','img_2019-04-25_02-01-53.jpg','img_2019-04-25_02-02-00.jpg','img_2019-04-25_02-02-12.jpg','img_2019-04-25_02-02-22.jpg','img_2019-04-25_02-03-50.jpg']
     detect = face_detect.Detect()
